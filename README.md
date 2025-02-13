@@ -28,9 +28,20 @@ wget https://github.com/centrifugal/centrifugo/releases/download/v6.0.2/centrifu
 ./centrifugo --config config.json
 ```
 
+Чтобы разрешить всем авторизованным пользователям читать каналы, нужно добавить в `config.json`:
+
+```json
+  "channel": {
+    "without_namespace": {
+      "allow_subscribe_for_client": true
+    }
+  }
+```
+
 ### Сформировать токен
 
-[Документация по началу работы](https://centrifugal.dev/docs/getting-started/quickstart)
+- [Документация по началу работы](https://centrifugal.dev/docs/getting-started/quickstart)
+- [Как сгенерировать JWT (token)](https://centrifugal.dev/docs/server/authentication)
 
 Токен для подключения через websocket формируется на основе hmac_secret_key с помощью команды `./centrifugo gentoken`:
 
