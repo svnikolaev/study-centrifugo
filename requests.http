@@ -1,0 +1,13 @@
+### message 1
+curl --header "Content-Type: application/json" \
+        --header "X-API-Key: your-secret-api-key" \
+        --request POST \
+        --data '{"channel": "your-channel", "data": {"value": 111}}' \
+        http://localhost:8000/api/publish
+
+### message 2
+curl --header "Content-Type: application/json" \
+        --header "X-API-Key: your-secret-api-key" \
+        --request POST \
+        --data '{"channel": "your-channel", "data": {"content": "some msg"}}' \
+        http://localhost:8000/api/publish

@@ -1,0 +1,24 @@
+{
+  "client": {
+    "token": {
+      "hmac_secret_key": "YOUR_HMAC_SECRET_KEY"
+    },
+    "allowed_origins": ["*"],
+    "ping_interval": "5s",
+    "pong_timeout": "4s"
+  },
+  "admin": {
+    "enabled": true,
+    "password": "YOUR_ADMIN_PASSWORD",
+    "secret": "YOUR_ADMIN_SECRET"
+  },
+  "http_api": {
+    "key": "YOUR_HTTP_API_KEY"
+  },
+  "channel": {
+    "without_namespace": {
+      "allow_subscribe_for_client": true
+    }
+  }
+}
+

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Centrifugo
+centrifugo
+centrifugo_*.tar.gz
+config.json
+
+# Executables
+*.exe
+
+# Temporary
+*.tmp
+*.temp
+*.swp
+temp_*
+temp.*
+temp/
+
+# Secrets
+.env
