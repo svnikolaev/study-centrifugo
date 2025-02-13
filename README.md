@@ -1,6 +1,17 @@
 # Изучение Centrifugo
 
-## Установить Centrifugo
+## Информация
+
+[Клиентские SDK для работы с Centrifugo](https://centrifugal.dev/docs/transports/client_sdk)
+
+1. [centrifuge-python](https://github.com/centrifugal/centrifuge-python):
+    WebSocket real-time SDK for Centrifugo server
+2. [pycent](https://github.com/centrifugal/pycent):
+    Python SDK to communicate with Centrifugo v5 HTTP API
+
+## Базовые команды
+
+### Установить Centrifugo
 
 [Документация по установке](https://centrifugal.dev/docs/getting-started/installation)
 
@@ -8,7 +19,7 @@
 wget https://github.com/centrifugal/centrifugo/releases/download/v6.0.2/centrifugo_6.0.2_linux_amd64.tar.gz && tar -xzf centrifugo_6.0.2_linux_amd64.tar.gz
 ```
 
-## Запустить Centrifugo
+### Запустить Centrifugo
 
 [Документация по началу работы](https://centrifugal.dev/docs/getting-started/quickstart)
 
@@ -17,7 +28,7 @@ wget https://github.com/centrifugal/centrifugo/releases/download/v6.0.2/centrifu
 ./centrifugo --config config.json
 ```
 
-## Сформировать токен
+### Сформировать токен
 
 [Документация по началу работы](https://centrifugal.dev/docs/getting-started/quickstart)
 
